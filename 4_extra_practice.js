@@ -14,7 +14,7 @@ while(num<10){
 }
 // Fizzbuzz
 var i=0
-while(i<29){
+while(i<30){
     i++
     if(i %3 ==0 && i %5 ==0)
     console.log("Fizzbuzz")
@@ -25,6 +25,7 @@ while(i<29){
 else{
     console.log(i)
 }
+}
 // Print odds
 var skip=0
 while (skip<20){
@@ -32,4 +33,4 @@ while (skip<20){
     console.log(skip)
     skip++
 }
-}
+
